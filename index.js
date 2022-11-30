@@ -50,5 +50,5 @@ app.post("/upload", upload.single('image'), (req, res) => {
         res.send(`https://i.lobis.co/${req.file.filename}`)
 })
 
-app.listen(3001)
-console.log("3001 is the port")
+app.listen(9007)
+console.log("9007 is the port")
