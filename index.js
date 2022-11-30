@@ -49,6 +49,6 @@ app.post("/upload", upload.single('image'), (req, res) => {
     }
         res.send(`https://i.lobis.co/${req.file.filename}`)
 })
-
-app.listen(9007)
-console.log("9007 is the port")
+const port = 9006
+app.listen(port)
+console.log(port + " is the port")
